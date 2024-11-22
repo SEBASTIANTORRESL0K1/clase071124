@@ -15,10 +15,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1px;
+    width: auto;
     background-color: #24292e;
     color: #ffffff;
     flex-wrap: wrap; /* Permitir que los elementos pasen a otra línea en pantallas pequeñas */
+  
   }
   
   /* Logo */
@@ -41,6 +43,7 @@
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
+    margin-right: 20px;
   }
   
   /* Botones de acción */
@@ -70,7 +73,7 @@
     border-radius: 3px;
     overflow: hidden;
     width: 250px;
-    margin: 10px 0;
+    margin: 20px;
   }
   
   .search-input {
@@ -92,6 +95,7 @@
     color: white;
     padding: 5px 10px;
     cursor: pointer;
+    margin-right: 20px;
   }
   
   .search-button:hover {
@@ -109,6 +113,7 @@
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    margin-right: 20px;
   }
   
   .toggle-form-button:hover {
@@ -202,6 +207,7 @@ main {
 
     .header-search {
         width: 100%;
+        margin-left:20px;
     }
 
     .header-actions {
@@ -233,6 +239,7 @@ main {
 
     .header-button {
         padding: 5px 10px;
+        margin-right: 10px;
     }
 
     /* Ajustar la anchura del buscador */
